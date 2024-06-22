@@ -1,6 +1,3 @@
-import Avatar from "../assets/avatars.jpeg";
-import React from "react";
-
 function Home() {
   return (
     <header
@@ -8,7 +5,7 @@ function Home() {
     justify-center items-center text-left"
     >
       <div>
-        <img src={Avatar} width={120} className="rounded-full" alt="" />
+        <img src="https://avatars.githubusercontent.com/u/155915830?v=4" width={120} className="rounded-full" alt="" />
       </div>
       <div className="ml-[10px]">
         <h1 className="text-2xl">Angel Nieto.</h1>
