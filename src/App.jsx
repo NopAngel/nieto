@@ -9,7 +9,7 @@ function App() {
   return (
     <main>
       <section
-        className="md:w-[500px] w-[100%] mx-auto text-center mt-[60px]"
+        className="md:w-[500px] w-[100%] mx-auto text-center mt-[20px]"
         id="anim-dv"
       >
         <Sidebar />
