@@ -15,29 +15,17 @@ function Project() {
       <h1 className="text-3xl font-semibold">My Projects.</h1>
       <div className="w-[90%] mx-auto text-center">
         <CardProject
-          Title="UI Snippet"
-          Description="Application that allows you to give ideas for new Component Snippets."
+          Title="Emoji's App."
+          Description="Application Emoji's using Svelte and TailwindCSS"
+        />
+         <CardProject
+          Title="Lingo App."
+          Description="Application Duolingo using Next.js and TailwindCSS"
         />
         <CardProject
-          Title="Logo Maker."
-          Description="
-Application used to color icons."
+          Title="App Music"
+          Description="Application Music using Next.js and TailwindCSS"
         />
-        <CardProject
-          Title="Anim.Dev"
-          Description="Application that allows you to animate components."
-        />
-
-        <h1 className="text-3xl font-semibold">Projects on Process...</h1>
-        <div>
-          <div className="w-[400px] mx-auto mt-[60px] text-left bg-[rgb(26,25,27)] p-[10px] rounded-xl mb-[60px]">
-            <h1 className="text-center text-3xl font-semibold">MaterialDX</h1>
-            <p className="text-xs opacity-50 p-[6px]">
-              A Project that allows using components in Code, is used only for
-              Nextjs and Reactjs, using TailwindCSS as the main
-            </p>
-          </div>
-        </div>
       </div>
     </article>
   );
