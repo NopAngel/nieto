@@ -1,9 +1,8 @@
-import React from "react";
 import Home from "./components/Home";
 import About from "./components/About";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
-import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
         className="md:w-[500px] w-[100%] mx-auto text-center mt-[20px]"
         id="anim-dv"
       >
-        <Sidebar />
+        <Navbar />
         <Home />
         <About />
         <Project />
