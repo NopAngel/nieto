@@ -15,7 +15,7 @@ function Navbar() {
         </li>
 
         <li>
-          <a href="https://github.com/NopAngel/nieto.com">
+          <a href="https://github.com/NopAngel/nieto.com" target="_blank">
             <FiGithub />
           </a>
         </li>
