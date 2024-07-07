@@ -22,7 +22,7 @@ const About = () => {
           <LinkPreview url="https://go.dev" className="font-bold">
             Golang
           </LinkPreview>{" "}
-          App's projects using Go and Javascript, but my passion for web
+          Apps projects using Go and Javascript, but my passion for web
           development still continues.
         </p>
       </div>
