@@ -4,14 +4,12 @@ const Card = ({
   title,
   image,
   link,
-  tags,
   descriptions,
   web,
 }: {
   title: string;
   image: string;
   link: string;
-  tags: any;
   descriptions: string;
   web: string;
 }) => {
@@ -31,22 +29,6 @@ const Card = ({
       <section>
         <p className="p-2 opacity-50">{descriptions}</p>
       </section>
-      <footer>
-        <article className="flex gap-2">
-          <LinkPreview url={web}>
-            <section className="flex">
-              {tags.map((i, index) => (
-                <div
-                  key={index}
-                  className="bg-zinc-950/55 backdrop-blur-sm rounded-xl border-2 border-zinc-900 p-1 font-mono"
-                >
-                  <span>{i}</span>
-                </div>
-              ))}
-            </section>
-          </LinkPreview>
-        </article>
-      </footer>
     </article>
   );
 };
