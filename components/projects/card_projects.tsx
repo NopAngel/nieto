@@ -35,7 +35,7 @@ const Card = ({
         <article className="flex gap-2">
           <LinkPreview url={web}>
             <section className="flex">
-              {tags.map((i, index): any => (
+              {tags.map((i, index): TagElement => (
                 <div
                   key={index}
                   className="bg-zinc-950/55 backdrop-blur-sm rounded-xl border-2 border-zinc-900 p-1 font-mono"
