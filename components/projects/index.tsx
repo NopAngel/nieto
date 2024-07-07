@@ -7,7 +7,6 @@ const Projects = () => {
       title: "lingo-project",
       description: "This is a clone of Duolingo, a simple and complete clone.",
       linkGithub: "https://github.com/NopAngel/lingo-app",
-      tags: ["Next.js  ", "Tailwind  ", "JavaScript  ", "Clerk  "],
       web: "https://www.nextjs.org",
     },
     {
@@ -15,7 +14,6 @@ const Projects = () => {
       title: "emojix",
       description: "An application to have emojis much easier.",
       linkGithub: "https://github.com/NopAngel/emojix",
-      tags: ["Svelte  ", "Tailwind  ", "TypeScript  "],
       web: "https://www.svelte.dev",
     },
     {
@@ -23,7 +21,6 @@ const Projects = () => {
       title: "hangman",
       description: "A Hangman app to move your little hands.",
       linkGithub: "https://github.com/NopAngel/hangman-golang",
-      tags: ["Go"],
       web: "https://go.dev/",
     },
   ];
@@ -44,7 +41,6 @@ const Projects = () => {
               descriptions={index.description}
               image={index.img}
               link={index.linkGithub}
-              tags={index.tags}
               key={item}
               web={index.web}
             />
