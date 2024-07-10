@@ -34,8 +34,11 @@ const Projects = () => {
         These are some of my projects that I have created in my career.
       </p>
       <div className="grid md:grid-cols-2 grid-cols-1 xl:w-[900px] w-full">
-        {data_projects.map(
-          (index, item) => (
+        {data_projects.map({img
+title
+description
+linkGithub
+web}=> (
             <Card
               title={index.title}
               descriptions={index.description}
