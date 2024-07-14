@@ -11,7 +11,7 @@ export default function Bio() {
       <section className="*:flex *:items-center *:justify-center *:text-left *:w-[400px] *:mx-auto *:gap-2 mt-6 *:mt-6">
         <div>
           <h1 className="text-xl font-semibold">2023</h1>
-          <p>
+          <p className="w-full">
             My first Full Stack project. Easy to use and comfortable Twitter
             clone, but not very well developed but it works.
           </p>
