@@ -12,8 +12,7 @@ export default function Bio() {
         <div>
           <h1 className="text-xl font-semibold">2023</h1>
           <p className="w-full">
-            My first Full Stack project. Easy to use and comfortable Twitter
-            clone, but not very well developed but it works.
+            My first Full Stack project.
           </p>
         </div>
         <div>
