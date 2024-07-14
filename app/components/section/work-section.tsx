@@ -5,7 +5,7 @@ export default function Work() {
     <section className="flex justify-center mt-6 mx-auto text-left">
       <article>
         <h1 className="font-semibold text-xl">Work</h1>
-        <div className="w-[600px] mx-auto">
+        <div className="xl:w-[600px] w-full mx-auto">
         <p className=" p-2">
           Hi, there!, my name is Angel Nieto, Developer Front-End and Developer
           Golang.{" "}
