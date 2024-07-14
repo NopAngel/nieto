@@ -11,7 +11,7 @@ export default function Bio() {
       <section className="*:flex *:items-center *:justify-center *:text-left *:w-[400px] *:mx-auto *:gap-2 mt-6 *:mt-6 *:xl:flex-row *:flex-col *:justify-center">
         <div>
           <h1 className="text-xl font-semibold">2023</h1>
-          <p className="w-full">
+          <p>
             My first Full Stack project.
           </p>
         </div>

@@ -11,7 +11,7 @@ export default function NavBar() {
                 <span className="text-xl font-semibold">NopAngel</span>
               </a>
             </li>
-            <section className="flex ml-3 gap-2 xl:opacity-100 opacity-0">
+            <section className="flex ml-3 gap-2">
               <li>
                 <a href="/work">Works</a>
               </li>
