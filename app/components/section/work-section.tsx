@@ -4,7 +4,7 @@ export default function Work() {
   return (
     <section className="flex justify-center mt-6 mx-auto text-left">
       <article>
-        <h1 className="font-semibold text-xl">Work</h1>
+        <h1 className="font-semibold text-xl text-center">Work</h1>
         <div className="xl:w-[600px] w-[90%] mx-auto">
         <p className=" p-2">
           Hi, there!, my name is Angel Nieto, Developer Front-End and Developer
