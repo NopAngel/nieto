@@ -1,35 +1,37 @@
-import About from "@/components/About";
-import Hero from "@/components/Hero";
-import Projects from "@/components/projects";
-import { FloatingNav } from "@/components/ui/navbar";
+import React from "react";
+import Profile from "./components/profile";
+import ProfileTwo from "./components/profile-two";
+import WorkSection from "./components/section/work-section";
+import Bio from "./components/section/bio";
+import ButtonTwo from "./components/ui/button-network";
 
-const Main = () => {
-  const navItems = [
-    {
-      name: "Home",
-      link: "/",
-    },
-    {
-      name: "About",
-      link: "/#about",
-    },
-    {
-      name: "Projects",
-      link: "/#projects",
-    },
-  ];
+export default function Page() {
+  const time = new Date();
+  const year = time.getFullYear();
   return (
-    <main>
-      <FloatingNav navItems={navItems} />
-      <section className="xl:w-[800px] w-full xl:m-auto">
+    <>
+      <main>
         <section>
-          <Hero />
-          <About />
-          <Projects />
+          <Profile />
+          <ProfileTwo />
+          <WorkSection />
+          <Bio />
         </section>
-      </section>
-    </main>
+        <section className="mt-10 mb-20">
+          <h1 className="text-2xl font-bold">On the web</h1>
+          <div className="w-[200px] mx-auto text-center grid grid-cols-2 gap-2">
+            <ButtonTwo icons="/github.svg" link="https://github.com/NopAngel/">
+              GitHub
+            </ButtonTwo>
+            <ButtonTwo
+              icons="/twitter.svg"
+              link="https://twitter.com/Nop_angel/"
+            >
+              Twitter
+            </ButtonTwo>
+          </div>
+        </section>
+      </main>
+    </>
   );
-};
-
-export default Main;
+}
