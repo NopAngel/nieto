@@ -21,7 +21,7 @@ export default function Work() {
         <Card
           Title="Book App"
           Description="This is a Books application, where you can find your favorite Books"
-          Href="https://github.com/NopAngel/spotify-app/"
+          Href="https://github.com/NopAngel/book-app"
           Img="/works/book-app.png"
         />
       </section>
