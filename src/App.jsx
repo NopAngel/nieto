@@ -4,16 +4,27 @@ import { Footer, Navbar } from "./components";
 import { About, Contact, Home, Projects } from "./pages";
 
 const App = () => {
-  const [currentPath, setCurrentPath] = useState(window.location.pathname);
   return (
     <main className='bg-slate-300/20'>
-      <Navbar />
-      {currentPath === "/" && <Home />}
-      {currentPath === "/about" && <About />}
-      {currentPath === "/contact" && <Contact />}
-      {currentPath === "/projects" && <Projects />}
-      
-      <Footer />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route
+            path='/*'
+            element={
+              <>
+                <Routes>
+                  <Route path='/about' element={<About />} />
+                  <Route path='/projects' element={<Projects />} />
+                  <Route path='/contact' element={<Contact />} />
+                </Routes>
+                <Footer />
+              </>
+            }
+          />
+        </Routes>
+      </Router>
     </main>
   );
 };
